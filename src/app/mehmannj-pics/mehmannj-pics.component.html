@@ -1,0 +1,10 @@
+<section [ngStyle]="{ 'display': 'flex' , 'justify-content': 'center', 'align-items': 'center' }">
+    <figure>
+      <img [src]="'assets/images/' + mehmannjMe.mehmannjImage" [ngClass]="{ 'mehmannjPersonalCSS': mehmannjMe.mehmannjID === '991709198' }">
+      <figcaption>{{ mehmannjMe.mehmannjName }}</figcaption>
+    </figure>
+    <figure>
+      <img [src]="'assets/images/' + mehmannjData.mehmannjFlag" [ngClass]="{ 'mehmannjCountryCSS': mehmannjData.mehmannjCountryID === 356 }">
+      <figcaption>{{ mehmannjData.mehmannjCountry }}</figcaption>
+    </figure>
+  </section>

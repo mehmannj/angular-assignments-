@@ -1,0 +1,33 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<app-header-mehmannj></app-header-mehmannj>
+
+<mat-tab-group mat-stretch-tabs
+class="example-stretched-tabs mat-elevation-z4"
+[ngStyle]="{textAlign: 'center'}">
+
+<mat-tab>
+  <ng-template mat-tab-label>
+    Tab #1 / mehmannj (991709198)
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="person"></mat-icon>
+  </ng-template>
+  <app-mehmannj-about [mehmannjMe] = "PERmehmannj"></app-mehmannj-about>
+</mat-tab>
+
+<mat-tab>
+  <ng-template mat-tab-label>
+    Tab #2 / mehmannj (991709198)
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+  </ng-template>
+  <app-mehmannj-country [mehmannjData] = "CTRYmehmannj"></app-mehmannj-country>
+</mat-tab>
+
+<mat-tab>
+  <ng-template mat-tab-label>
+    Tab #3 / mehmannj (991709198)
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="camera"></mat-icon>
+  </ng-template>
+  <app-mehmannj-pics [mehmannjMe] = "PERmehmannj" [mehmannjData] = "CTRYmehmannj"></app-mehmannj-pics>
+</mat-tab>
+
+</mat-tab-group>

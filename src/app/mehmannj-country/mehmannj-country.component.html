@@ -1,0 +1,14 @@
+<div>
+    <h2 [ngStyle]="{ 'color': '	red ', 'text-transform': 'uppercase' }">
+      Country: {{ mehmannjData.mehmannjCountry }}
+    </h2>
+    <hr>
+    <h2 [ngStyle]="{ 'font-style': 'italic', 'background-color': '#0000FF', 'color': '#FEFCFC' }">
+      Capital: {{ mehmannjData.mehmannjCapital }}
+    </h2>
+    <hr>
+    <h2 [ngStyle]="{ 'color': '#000000' }">
+      Average Salary: {{ mehmannjData.mehmannjSalary | currency }}
+    </h2>
+    <hr>
+  </div>

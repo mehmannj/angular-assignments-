@@ -1,0 +1,20 @@
+.mehmannjPersonalCSS {
+    border: 5px solid blue;
+    border-radius: 15px;
+    width: 150px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+  }
+  
+.mehmannjCountryCSS {
+    border: 5px double green;
+    width: 150px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+  }
